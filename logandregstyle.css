@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+    color:red;
+    background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5),url(workilogo.jpg));
+    background-position:center;
+    background-size:cover;
+}  
+.login-left{
+    padding: 30px;
+} 
+.login-right{
+    padding: 30px;
+}

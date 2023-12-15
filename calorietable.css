@@ -1,0 +1,48 @@
+body {
+    background-color: #141414;
+    color:red;
+}
+
+h1 {
+    text-align: Center;
+    border-width: thick;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: Center;
+    border-width: thick;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.Strength {
+    background-color: azure;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    font-size:18px;
+}
+
+.Strength td,
+.Strength th {
+    padding: 8px;
+    border: solid 2px black;
+}
+
+.Strength tr :hover {
+    background-color: rgb(0, 139, 139);
+}
+
+.Strength th {
+    background-color:red;
+    color: #141414;
+
+}
+
+.Strenght tr:nth-child(even) {
+    background-color: #aab2b2;
+}
+h2{
+    text-align: center;
+}

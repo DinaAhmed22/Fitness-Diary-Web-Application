@@ -3,29 +3,28 @@
     }
     
     body {
-        color: rgb(255, 0, 0);
-        background-color: cyan;
+        
+    color:white;
+    font-weight:bold;
+       
     }
     
     h1 {
-        color: red;
+        text-align: center;
     }
     
     div#hello {
-        background-color: lightcoral;
+        background-color: rgb(200,30,30);
         border-style: solid;
         text-align: center;
         font-weight: bold;
         border-radius: 5px;
     }
     
-    #h31 {
-        color: rgb(255, 20, 147);
-        text-align: center;
-    }
+
     
     h3 {
-        color: rgb(255, 20, 147);
+        color: white;
     }
     
     .Mainpage {
@@ -62,11 +61,7 @@
         text-align: center;
     }
     
-    div#i,
-    image {
-        text-align: center;
-        background-color: cyan;
-    }
+ 
     
     div#i:hover {
         opacity: 0.8;

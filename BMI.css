@@ -1,0 +1,40 @@
+    body {
+        background-color: #141414;
+    }
+    
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        color: red;
+    }
+    
+    .BMI {
+        text-align: center;
+        background-color: #141414;
+        color: red;
+        margin: 20px;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    button[type=submit] {
+        background-color: red;
+        border: 5px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button[type=submit]:hover {
+        opacity: 0.7;
+    }
+    
+    button {
+        background-color: black;
+        color: white;
+    }
+    
+    button:hover {
+        opacity: 0.7;
+    }

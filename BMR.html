@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>My Fitness Diary</title>
+<style>
+    body {
+        background-color: #141414;
+        color: red;
+    }
+    
+    .BMR {
+        text-align: center;
+        background-color:  #141414;
+        margin: 20px;
+        padding: 15px;
+    }
+    
+    h1 {
+        font-weight: bold;
+    }
+    
+    .BMRVALUE {
+        background-color: black;
+        margin: 15px;
+    }
+    
+    button[type=submit] {
+        background-color: red;
+        border: 5px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button[type=submit]:hover {
+        opacity: 0.7;
+    }
+    
+    .AMRVALUE {
+        background-color: red;
+        color:white;
+        margin: 15px;
+    }
+    
+    .Calories {
+        background-color: pink;
+        margin: 15px;
+    }
+</style>
+
+</html>
+
+<body>
+    <div class='BMR'>
+        <h3 id="h31">Enter Your Measurments
+        </h3>
+        <label>Enter Your Height (Cm)</label>
+        <input type="number" placeholder='Ex.:172cm ' id="h-input">
+        <br>
+        <br>
+        <br> Enter Your Weight (Kg)
+        <input type="number" placeholder="Ex.:61kg" id="w-input">
+        <br>
+        <br>
+        <label>Enter your age</label>
+        <input type="number" placeholder='Ex.:18yrs ' id="a-input">
+        <br>
+        <br>
+        
+        <label>Type (f) or (m) for your Gender</label>
+       
+        <input type="text" id="g" name="Gender">
+        <br>
+        <br>
+        <br> 
+       <h3>Choose Your Activity Level</h3> 
+       <br>
+
+        <select id="AL">
+            <option value="1">Little Exercise or No Exercise</option>
+            <option value="2">Light Exercise or few times a week</option>
+            <option value="3">Moderate Exercise 3-5 times a week</option>
+            <option value="4">Heavy exercise 6-7 times per week</option>
+        </select>
+        <br>
+
+        <br>
+         <h3>Choose Your Goal</h3>
+         <br>
+
+        <select id="Goal">
+            <option value='1'>Lose Weight</option>
+            <option value='2'>Mantain Weight</option>
+            <option value='3'>Gain Weight</option>
+        </select>
+        <br>
+
+        <div class='BMRVALUE'>
+            <h4>BMR Value: </h4>
+            <div id="bmr-output"></div>
+        </div>
+        <br>
+        <div class='AMRVALUE'>
+            <h4>AMR Value: </h4>
+            <div id='amr-output'></div>
+        </div>
+        <br>
+       
+        <br>
+        <div>
+        <button type="submit" onclick="calculate_BMR()">Calculate BMR</button>
+       
+        <button type="submit" onclick="calcamr()">Calculate AMR</button>
+
+     </div>
+    <script src="Bmr.js ">
+    </script>
+</body>

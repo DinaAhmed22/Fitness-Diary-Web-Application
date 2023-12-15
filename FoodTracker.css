@@ -1,0 +1,67 @@
+    body {
+        background-color:black;
+        color:white;
+    }
+    
+    h1 {
+        font-weight: bold;
+        padding: 15px 16px;
+        text-align: center;
+    }
+    
+    h3 {
+        font-weight: bold;
+        padding: 15px 16px;
+        text-align: center;
+    }
+    
+    div#x {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    div#z {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    div#IZ {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    div#z img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div#y {
+        border-radius:solid 5px black;
+        background-color: black;
+        color:red;
+        text-align: center;
+     
+    }
+    
+    a:link,
+    a:visited {
+        background-color: rgb(255, 50, 40);
+        display: inline-block;
+    }
+    
+    a:hover,
+    a:active {
+        background-color: rgb(0, 200, 200);
+    }
+    
+    input[type=submit] {
+        color:black;
+        background-color:red;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+   
+    
+    
