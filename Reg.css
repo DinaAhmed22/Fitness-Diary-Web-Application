@@ -1,0 +1,68 @@
+    * {
+        box-sizing: border-box
+    }
+    
+    h1 {
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    body {
+        background-color: rgb(50, 150, 250);
+        color: rgb(0, 0, 255);
+    }
+    /* Add padding to containers */
+    
+    .container {
+        background-color: rgb(150, 250, 160);
+        border: 3px solid #f1f1f1;
+        margin: 15px;
+        padding: 25px;
+        text-align: center;
+    }
+    /* Full-width input fields */
+    
+    input[type=text],
+    input[type=password] {
+        margin: 8px 0;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 2px solid green;
+        box-sizing: border-box;
+    }
+    
+    br {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+    /* Set a style for the submit/register button */
+    
+    .registerbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+    
+    .registerbtn:hover {
+        opacity: 0.8;
+    }
+    /* Add a blue text color to links */
+    
+    a {
+        color: dodgerblue;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    /* Set a grey background color and center the text of the "sign in" section */
+    
+    .signin {
+        background-color: #f1f1f1;
+        text-align: center;
+    }

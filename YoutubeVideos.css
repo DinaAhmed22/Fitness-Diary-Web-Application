@@ -1,0 +1,117 @@
+    body {
+        background-color: aqua;
+    }
+    
+    h1 {
+        text-align: Center;
+        border-width: thick;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+    
+    h3 {
+        text-align: Center;
+        border-width: thick;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+    
+    #Strength {
+        color: rgb(255, 0, 0);
+        width: 100%;
+    }
+    
+    #Strength td,
+    #Strength th {
+        padding: 8px;
+        border: solid 2px black;
+    }
+    
+    #Strength tr :hover {
+        background-color: rgb(0, 139, 139);
+    }
+    
+    #Strength th {
+        background-color: lightblue;
+        color: blue;
+    }
+    
+    #Strenght tr:nth-child(even) {
+        background-color: #aab2b2;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    div#x {
+        text-align: center;
+    }
+    
+    div#x:hover {
+        opacity: 0.8;
+    }
+    
+    a:link,
+    a:visited {
+        background-color: rgb(255, 50, 40);
+        display: inline-block;
+    }
+    
+    a:hover,
+    a:active {
+        background-color: rgb(0, 200, 200);
+    }
+    
+    p#vid:hover {
+        background-color: rgb(0, 255, 55);
+    }
+    
+    #vid:hover {
+        background-color: rgb(0, 255, 55);
+    }
+    
+    div#STR {
+        text-align: center;
+        background-color: aquamarine;
+        color: rgb(0, 255, 0);
+        font-weight: bold;
+        font-size: 16px;
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    div#CR {
+        text-align: center;
+        background-color: green;
+        color: rgb(0, 0, 255);
+        font-weight: bold;
+        font-size: 16px;
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    #Cardio {
+        color: rgb(0, 0, 255);
+        width: 100%;
+        background-color: green;
+    }
+    
+    #Cardio td,
+    #Cardio th {
+        padding: 8px;
+        border: solid 2px black;
+    }
+    
+    #Cardio tr :hover {
+        background-color: rgb(190, 2, 50);
+    }
+    
+    #Cardio th {
+        background-color: lightgreen;
+        color: red;
+    }
+    
+    #Cardio tr:nth-child(even) {
+        background-color: cyan;
+    }
